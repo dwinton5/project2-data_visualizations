@@ -12,7 +12,7 @@ Plotly.d3.csv('State_Vac_Data/2015-2016_Vac_Data.csv', function(error, data){
         x: ['<em>2015-2016<em> <i>US<i>', '<em>2015-2016<em> <i>TX<i>', '<em>2015-2016<em> <i>CA<i>','<em>2015-2016<em> <i>OH<i>','<em>2015-2016<em> <i>IL<i>','<em>2015-2016<em> <i>GA<i>','<em>2016-2017<em> <i>US<i>','<em>2016-2017<em> <i>AL<i>','<em>2016-2017<em> <i>NJ<i>',
         '<em>2016-2017<em> <i>PA<i>','<em>2016-2017<em> <i>MA<i>','<em>2016-2017<em> <i>MD<i>','<em>2017-2018<em> <i>US<i>','<em>2017-2018<em> <i>MD<i>','<em>2017-2018<em> <i>MN<i>','<em>2017-2018<em> <i>AL<i>','<em>2017-2018<em> <i>TX<i>','<em>2017-2018<em> <i>NY<i>'],
         y: [63.4, 65.1, 61.1, 61.2, 59.3, 62.6, 65.3, 63, 65.5, 72.3, 59.3, 71.8, 59.6, 63.8, 66, 65.4, 52.6, 53],
-        marker: {color: ['#2E7D32','#2E7D32','#2E7D32', '#2E7D32','#2E7D32','#2E7D32', '#9575CD', '#9575CD', '#9575CD', '#9575CD', '#9575CD', '#9575CD', '#9575CD', '#F44336', '#F44336', '#F44336', '#F44336', '#F44336', '#F44336', '#F44336']},
+        marker: {color: ['#2E7D32','#2E7D32','#2E7D32', '#2E7D32','#2E7D32','#2E7D32', '#9575CD', '#9575CD', '#9575CD', '#9575CD', '#9575CD', '#9575CD', '#F44336', '#F44336', '#F44336', '#F44336', '#F44336', '#F44336']},
          
     }];
 
@@ -30,7 +30,7 @@ Plotly.d3.csv('State_Vac_Data/2015-2016_Vac_Data.csv', function(error, data){
         x: ['<em>6mos-17yrs<em> <i>US<i>', '<em>6mos-17yrs<em> <i>MD<i>','<em>6mos-17yrs<em> <i>MN<i>','<em>6mos-17yrs<em> <i>AL<i>','<em>6mos-17yrs<em> <i>TX<i>','<em>6mos-17yrs<em> <i>NY<i>', '<em>18-64 yrs<em> <i>US<i>','<em>18-64 yrs<em> <i>MD<i>','<em>18-64 yrs<em> <i>MN<i>',
         '<em>18-64 yrs<em> <i>AL<i>','<em>18-64 yrs<em> <i>TX<i>','<em>18-64 yrs<em> <i>NY<i>', '<em>65+ yrs<em> <i>US<i>','<em>65+ yrs<em> <i>MD<i>','<em>65+ yrs<em> <i>MN<i>','<em>65+ yrs<em> <i>AL<i>','<em>65+ yrs<em> <i>TX<i>','<em>65+ yrs<em> <i>NY<i>'],
         y: [57.9, 67.5, 61.9, 53.8, 58, 64.9, 31.1, 39.3, 38.6, 31.7, 26, 28.8, 59.6, 63.8, 66, 65.4, 52.6, 53],
-        marker: {color: ['#4FC3F7','#4FC3F7','#4FC3F7', '#4FC3F7','#4FC3F7','#4FC3F7', '#0277BD', '#0277BD', '#0277BD', '#0277BD', '#0277BD', '#0277BD', '#0277BD', '#EF6C00', '#EF6C00', '#EF6C00', '#EF6C00', '#EF6C00', '#EF6C00', '#EF6C00']},
+        marker: {color: ['#4FC3F7','#4FC3F7','#4FC3F7', '#4FC3F7','#4FC3F7','#4FC3F7', '#0277BD', '#0277BD', '#0277BD', '#0277BD', '#0277BD', '#0277BD', '#EF6C00', '#EF6C00', '#EF6C00', '#EF6C00', '#EF6C00', '#EF6C00']},
     }];
 
     var layout2 = {
