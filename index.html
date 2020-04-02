@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Charts</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+
+    <h2>Vaccination Data for Top 5 Deadliest States 2016-2018</h2>
+    <select id="selDataset">
+        <option value="dataset1a">Flu Vaccinations for Seniors in Deadliest States 2016-2018</option>
+        <option value="dataset2a">Flu Vaccinations by Age Groups 2017-2018</option>
+    </select> 
+
+    <div id="vac_plot1"></div>
+    <div id="vac_plot2"></div>
+
+    <br>
+    <br>
+
+    <h2>Age Demographics for Top 5 Deadliest States 2017-2018</h2>
+    <select id="selDataset2">
+        <option value="dataset1">Maryland 1st Deadliest</option>
+        <option value="dataset2">Minnesota 2nd Deadliest</option>
+        <option value="dataset3">Alabama 3rd Deadliest</option>
+        <option value="dataset4">Texas 4th Deadliest</option>
+        <option value="dataset5">New York 5th Deadliest</option>
+    </select>
+
+    <div id="age_plot1"></div>
+    <div id="age_plot2"></div>
+    <div id="age_plot3"></div>
+    <div id="age_plot4"></div>
+    <div id="age_plot5"></div>
+
+    <script src="vac_plots.js"></script>
+
+</body>
+</html>
